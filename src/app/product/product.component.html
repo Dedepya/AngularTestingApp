@@ -3,6 +3,6 @@
         <div class="card-body">
             <h5 class="card-title">{{productObj.productTitle}}</h5>
             <p class="card-text">{{productObj.description}}</p>
-            <a href="#" class="btn btn-primary float-end">Explore <i class="fa fa-sign-out"></i></a>
+            <button href="#" class="btn btn-success float-end" (click)="sendProductDetailsToParent(productObj.productTitle)">Explore <i class="fa fa-sign-out"></i></button>
         </div>
 </div>
