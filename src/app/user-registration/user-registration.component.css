@@ -1,0 +1,25 @@
+.form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: none !important;
+    border-radius: 0px;
+}
+.form-control:focus{
+    border-bottom: 2px solid black;
+}
+.btn{
+    border-radius: 2px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.h4{
+    background-color: burlywood;
+    color: black;
+    padding: 3px 10px;
+}
+.bt{
+    color:red;
+}
+.fa{
+    align-items:center;
+}
