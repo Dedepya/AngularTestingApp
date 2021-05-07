@@ -1,5 +1,5 @@
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 col-cols-lg-4 g-4 mt-5 mb-5">
-    <div class ="col" *ngFor="let p of products">
-        <app-product></app-product>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 col-cols-lg-4 g-5 mt-3 mb-5">
+    <div class ="col" *ngFor="let prObj of products">
+        <app-product [productObj]=prObj></app-product>
     </div>
 </div>
