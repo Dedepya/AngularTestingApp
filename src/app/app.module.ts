@@ -8,6 +8,10 @@ import { UserListComponent } from './user-list/user-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductComponent } from './product/product.component';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { ProductComponent } from './product/product.component';
     FooterComponent,
     ProductsComponent,
     ProductComponent,
+    HomeComponent,
+    RegisterComponent,
+    LoginComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,

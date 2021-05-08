@@ -31,3 +31,6 @@ ul{
 .fa{
     align-items:center;
 }
+.active{
+    font-weight: bold;
+}
