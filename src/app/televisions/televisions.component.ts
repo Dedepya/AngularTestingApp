@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {DataService} from '../data.service';
+import { Product } from '../models/product.model';
 import {TestService} from '../test.service'
 
 @Component({
@@ -8,11 +10,8 @@ import {TestService} from '../test.service'
 })
 export class TelevisionsComponent implements OnInit {
 
-  num:any;
-  constructor(private testObj:TestService) { }
+  ngOnInit(){
 
-  ngOnInit(): void {
-    this.num=this.testObj.getData();
-  }
+    }
 
 }

@@ -1,0 +1,56 @@
+<div class="table-content">
+    <form #ref="ngForm" (ngSubmit)="saveMobile(ref.value)">
+        <table class="table text-center text-dark">
+            <thead>
+                <th>Brand</th>
+                <th>Description</th>
+                <th>Image</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let mobile of mobiles;let ind=index">
+
+                    <!-- product title -->
+                    <td class="title">
+                        <span *ngIf="!editMobileStatus || editMobileIndex!==ind">
+                            {{mobile.productTitle | uppercase}}
+                        </span>
+
+                        <input type="text" name="productTitle" [(ngModel)]="editMobileObj.productTitle"
+                            *ngIf="editMobileStatus && editMobileIndex==ind">
+
+                    </td>
+                    <!-- product description -->
+                    <td>
+                        <span *ngIf="!editMobileStatus || editMobileIndex!==ind">
+                            {{mobile.description}}
+                        </span>
+
+                        <input type="text" name="description" [(ngModel)]="editMobileObj.description"
+                            *ngIf="editMobileStatus && editMobileIndex==ind">
+
+                    </td>
+                    <td>
+                        <img src={{mobile.productImage}} alt="" width="100px">
+                    </td>
+                    <!-- edit  and delete -->
+                    <td>
+                        <span *ngIf="!editMobileStatus || editMobileIndex!==ind" class="d-block">
+                            <button class="btn btn-edit btn-sm p-1 m-1" (click)="editMobile(mobile,ind)" type="button"><i
+                                    class="fas fa-edit "></i>
+                            </button>
+                            <button class="btn btn-delete btn-sm p-1 m-1" (click)="deleteMobile(mobile)" type="button">
+                                <i class="fas fa-trash-alt "></i>
+                            </button>
+                        </span>
+
+                        <span *ngIf="editMobileStatus && editMobileIndex==ind">
+                            <button class="btn btn-sm btn-success" type="submit">
+                                <i class="fas fa-save text-white"></i>
+                            </button>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>

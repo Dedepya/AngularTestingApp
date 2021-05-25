@@ -1,0 +1,98 @@
+{
+  "mobiles": [
+    {
+      "productTitle": "Realme",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://www.sathya.in/Media/Default/Thumbs/0038/0038136-vivo-s1-pro-black8gb-ram-128gb-storage-250.jpg"
+    },
+    {
+      "productTitle": "Samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg"
+    },
+    {
+      "productTitle": "Honor",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://5.imimg.com/data5/AW/IX/GLADMIN-53160395/galaxy-s-500x500.png"
+    },
+    {
+      "productTitle": "Iphone-11",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://img.tatacliq.com/images/i7/1348Wx2000H/MP000000005562292_1348Wx2000H_202011300234051.jpeg"
+    },
+    {
+      "productTitle": "OnePlus",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://670354.smushcdn.com/2260778/wp-content/uploads/2021/03/AMZ101-2.jpg"
+    },
+    {
+      "productTitle": "Google pixel",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://www.91-img.com/pictures/105546-v1-google-pixel-xl-mobile-phone-large-1.jpg"
+    }
+  ],
+  "bikes": [
+    {
+      "productTitle": "Bullet",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://gaadiwaadi.com/wp-content/uploads/2018/07/Haley-Announces-Huge-Plans-for-India-250-500-CC-Bikes-Arriving-2.jpg"
+    },
+    {
+      "productTitle": "Scooty",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202011/images__23__resize_54_0_1200x768.jpeg?bY0p7zpo0jVrP_Hf6CbyY5IykBSMpWhR&size=770:433"
+    },
+    {
+      "productTitle": "Duke",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://3.imimg.com/data3/GO/DG/GLADMIN-49708/battery-operated-bike-500x500.jpg"
+    },
+    {
+      "productTitle": "Racer",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwNgHTbykq6Xq-r6pQlhBkxskt39Gb0Xz_hN3p3Z4PpcaWoh5XU_zkla10TNPf9pGPts&usqp=CAU"
+    },
+    {
+      "productTitle": "Pulsur",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwiMRlEThBshFLRDfUzaG8qmcOoAWAO3jQQ&usqp=CAU"
+    },
+    {
+      "productTitle": "Xouls",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://images.financialexpress.com/2019/05/7-8.jpg?w=660&h=440&imflag=true"
+    }
+  ],
+  "televisions": [
+    {
+      "productTitle": "Red Mi",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://i.gadgets360cdn.com/products/large/redmi-tv-70-inch-db-707x800-1567083727.jpg"
+    },
+    {
+      "productTitle": "Samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmdyY3ixKD45cEUJnEdFzrOKKNOSbYD16_4_wH6ubzrbaOV9o-2DOQ6mgcL7J4MufEDkk&usqp=CAU"
+    },
+    {
+      "productTitle": "Sony",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxAQrM4l_RPElKzDvVl3hkoXBTdKLzJqQHA&usqp=CAU"
+    },
+    {
+      "productTitle": "LG",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQtao33JMJRDSbvu5Y8Js-qtq0sF2dzLIbHlV4fBU0zUFnqXdYiioLSIbdDU8m-gbxvQ&usqp=CAU"
+    },
+    {
+      "productTitle": "OnePlus",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://m.media-amazon.com/images/I/81qtALn+GpL._AC_SS450_.jpg"
+    },
+    {
+      "productTitle": "Realme",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDBG36D-_S6t-VL9p_dzFeJvyO-SoQ6VqrhsqTT6qjfOhBTvcpy3GGnB1kL3q5fXUOdnY&usqp=CAU"
+    }
+  ]
+}

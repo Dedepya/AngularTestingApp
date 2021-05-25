@@ -1,0 +1,13 @@
+
+<table class="table text-center bg-light mt-2">
+    <thead>
+        <tr>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let postObj of users">
+            <td><button class="btn bg-warning" (click)="onSelectId(postObj.id)">{{postObj.id}}</button></td>
+        </tr>
+    </tbody>
+</table>

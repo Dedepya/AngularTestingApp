@@ -14,6 +14,14 @@ import { MobilesComponent } from './mobiles/mobiles.component';
 import { BikesComponent } from './bikes/bikes.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TestingComponent } from './testing/testing.component';
+import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { ViewmobilesComponent } from './viewmobiles/viewmobiles.component';
+import { AddnewmobileComponent } from './addnewmobile/addnewmobile.component';
+import {FormsModule} from '@angular/forms';
+import { SquarePipe } from './square.pipe';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -28,11 +36,19 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MobilesComponent,
     BikesComponent,
     TelevisionsComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    TestingComponent,
+    UserdetailsComponent,
+    ViewmobilesComponent,
+    AddnewmobileComponent,
+    SquarePipe,
+    SearchPipe,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

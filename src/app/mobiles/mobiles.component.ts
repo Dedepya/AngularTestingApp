@@ -9,14 +9,6 @@ import { Product } from '../models/product.model';
 })
 export class MobilesComponent implements OnInit{
 
-  mobiles:Product[]=[];
-
-  //inject obj of DataService class
-  constructor(private dsObj:DataService){
-
-  }
   ngOnInit(){
-    //obj initialisation logic
-    this.mobiles=this.dsObj.getMobilesData();
   }
 }
