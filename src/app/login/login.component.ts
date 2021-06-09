@@ -31,7 +31,7 @@ export class LoginComponent  implements OnInit{
         //save username in local storage
         localStorage.setItem("username","admin")
         //navigate to admin component
-        this.router.navigateByUrl("/admin")
+        this.router.navigateByUrl("/products")
        }
   }
 }

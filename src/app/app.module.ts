@@ -10,18 +10,14 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { MobilesComponent } from './mobiles/mobiles.component';
-import { BikesComponent } from './bikes/bikes.component';
-import { TelevisionsComponent } from './televisions/televisions.component';
+import { ProfilesComponent } from './profiles/profiles.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { HttpClientModule } from '@angular/common/http';
-import { TestingComponent } from './testing/testing.component';
-import { UserdetailsComponent } from './userdetails/userdetails.component';
-import { ViewmobilesComponent } from './viewmobiles/viewmobiles.component';
-import { AddnewmobileComponent } from './addnewmobile/addnewmobile.component';
-import {FormsModule} from '@angular/forms';
-import { SquarePipe } from './square.pipe';
+import { ViewprofilesComponent } from './viewprofiles/viewprofiles.component';
+import { AddnewprofileComponent } from './addnewprofile/addnewprofile.component';
+import { FormsModule } from '@angular/forms';
 import { SearchPipe } from './search.pipe';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
@@ -33,16 +29,12 @@ import { SearchPipe } from './search.pipe';
     RegisterComponent,
     LoginComponent,
     ContactusComponent,
-    MobilesComponent,
-    BikesComponent,
-    TelevisionsComponent,
+    ProfilesComponent,
     PagenotfoundComponent,
-    TestingComponent,
-    UserdetailsComponent,
-    ViewmobilesComponent,
-    AddnewmobileComponent,
-    SquarePipe,
+    ViewprofilesComponent,
+    AddnewprofileComponent,
     SearchPipe,
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,

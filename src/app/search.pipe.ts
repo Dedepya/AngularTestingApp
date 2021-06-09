@@ -5,14 +5,14 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class SearchPipe implements PipeTransform {
 
-  transform(mobiles: any[], searchTerm:string): any[] {
+  transform(profiles: any[], searchTerm:string): any[] {
 
    
-    if(!mobiles || !searchTerm){
-      return mobiles;
+    if(!profiles || !searchTerm){
+      return profiles;
     }
     else{
-      return mobiles.filter(mobileObj=>mobileObj.productTitle.toLowerCase().indexOf(searchTerm.toLowerCase())!==-1 )
+      return profiles.filter(mobileObj=>mobileObj.profileTitle.toLowerCase().indexOf(searchTerm.toLowerCase())!==-1 )
     }
   }
 

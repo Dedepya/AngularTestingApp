@@ -1,5 +1,6 @@
 export interface Product{
-    productTitle:string;
+    profileTitle:string;
     description:string;
-    productImage:string
+    profileImage:string;
+    profileLink:string;
 }

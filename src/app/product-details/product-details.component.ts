@@ -16,9 +16,9 @@ export class ProductDetailsComponent  {
   @Output() myEvent=new EventEmitter();
 
 
-  sendProductDetailsToParent(productTitle){
+  sendProductDetailsToParent(profileTitle){
       //emit data to parent
-      this.myEvent.emit(productTitle);
+      this.myEvent.emit(profileTitle);
   }
 
 

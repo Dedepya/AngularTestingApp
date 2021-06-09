@@ -1,0 +1,15 @@
+.active{
+    font-weight: bold;
+}
+
+li a{
+
+    color:rgb(8, 8, 8);
+}
+
+
+.active.nav-link{
+    background-color: teal;
+    color:rgb(253, 250, 253);
+   
+}

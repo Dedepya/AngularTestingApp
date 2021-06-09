@@ -1,0 +1,25 @@
+<div class="row mt-5">
+  <div class="col-sm-2 col-md-3"></div>
+    <div class="col-sm-8 col-md-6">
+      <form (ngSubmit)="onSubmitNewProfile()">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pt" placeholder="Title" name="profileTitle" [(ngModel)]="profileModel.profileTitle">
+          <label for="pt">Platform Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pi" placeholder="Image url" name="profileImage" [(ngModel)]="profileModel.profileImage">
+          <label for="pi">Image URL</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pd" placeholder="text" name="description" [(ngModel)]="profileModel.description">
+          <label for="pd">Descrption</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pu" placeholder="text" name="profileLink" [(ngModel)]="profileModel.profileLink">
+          <label for="pd">Platform URL</label>
+        </div>
+        <button class="btn btn-warning float-end mt-3 mb-5" type="submit">Add</button>
+      </form>
+    </div>
+  <div class="col-sm-2 col-md-3"></div>
+</div>

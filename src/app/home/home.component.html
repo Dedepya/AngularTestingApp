@@ -1,12 +1,38 @@
+<div class="carousel slide mt-3 mb-3" data-bs-ride="carousel" id="crs">
 
-<h1 class="text-center text-white">{{n}}</h1>
-
-<h1 class="text-center text-white">{{n | currency:'INR'}}</h1>
-
-<h1 class="text-center text-white">{{roi | percent}}</h1>
-
-<h1 class="text-center text-white">{{today | date:'short'}}</h1>
-
-<h1 class="text-center text-white">{{roi | percent}}</h1>
-
-<h1 class="text-center text-white">Square of {{n}} is {{n | square }}</h1>
+    <div class="carousel-indicators">
+        <button data-bs-target="#crs" data-bs-slide-to="0" class="active"></button>
+        <button data-bs-target="#crs" data-bs-slide-to="1"></button>
+        <button data-bs-target="#crs" data-bs-slide-to="2"></button>
+    </div>
+  
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://thecrosswordschool.files.wordpress.com/2020/06/online-learning.jpg?w=825&h=510&crop=1" alt="" width="100%" height="612px">
+            <div class="carousel-caption">
+                <h2> </h2>
+                <p> </p>
+           </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/getting-started-with-competitive-programming-banner-d0478b5e6ffcf080.jpg" alt="" width="100%" height="612px">
+            <div class="carousel-caption">
+                <h2> </h2>
+                <p> </p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="../assets/Companie.jpg" alt="" width="100%" height="612px">
+            <div class="carousel-caption">
+                <h2> </h2>
+                <p> </p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#crs" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#crs" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>

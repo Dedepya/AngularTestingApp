@@ -8,7 +8,7 @@ import { DataService } from './data.service';
   providers:[]
 })
 export class AppComponent {
-  title = 'MyAngularApp';
+  title = 'Internship';
   constructor(public dsObj:DataService){
     
   }

@@ -7,8 +7,11 @@
    
 }
 nav li a{
-    color: black;
+    color: white;
 }
 nav li a:focus{
-    color:rgb(250, 48, 149);
+    color:rgb(3, 3, 3);
+}
+a{
+    color:white;
 }

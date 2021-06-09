@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {TestService} from '../test.service';
 
 @Component({
   selector: 'app-home',
@@ -8,16 +7,10 @@ import {TestService} from '../test.service';
 })
 export class HomeComponent implements OnInit {
 
-  n:number=5;
 
-  roi=0.12;
-
-  today=new Date();
-
-  constructor(private tsObj:TestService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.tsObj.setData(this.n);
+    
   }
-
 }
