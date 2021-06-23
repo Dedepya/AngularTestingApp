@@ -41,6 +41,27 @@
       "description": "SPOJ is an online judge system allows to organize contests and also includes a forum for coders to discuss particular problems.",
       "profileImage": "https://www.andreafiori.net/img/competitive-programming/spoj.gif",
       "profileLink": "https://www.spoj.com/"
+    },
+    {
+      "id": 7,
+      "profileTitle": "Hackerearth",
+      "description": "HackerEarth provides organisations to conduct technical skill assessment and remote video interviewing for hiring.",
+      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktYWwsM53sqOR3r0YTlHnpl5VtQ0s-x6Q4GX3mgEHTPt18OSX0FOxKde-RyZvQmZGEeo&usqp=CAU",
+      "profileLink": "https://www.hackerearth.com/"
+    },
+    {
+      "id": 8,
+      "profileTitle": "Coding Ninjas",
+      "description": "Coding Ninjas is one of the best learning platforms.The course content was very informative and well .",
+      "profileImage": "https://onlineandyou.com/wp-content/uploads/2020/07/Coding-Ninjas.jpg",
+      "profileLink": "https://www.codingninjas.com/"
+    },
+    {
+      "id": 9,
+      "profileTitle": "Topcoder",
+      "description": "Topcoder is home to the world's largest community of developers, and data scientists to start and execute faster.",
+      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVm7AThfNhjDi-DPTEjAFyK6zgNJt7-UtKBJtiq5ua3yJGWe9mfFS0b79dvesIeDLFAyQ&usqp=CAU",
+      "profileLink": "https://www.topcoder.com/"
     }
   ]
 }

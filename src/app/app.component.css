@@ -7,7 +7,7 @@
    
 }
 nav li a{
-    color: white;
+    color: rgb(3, 3, 3);
 }
 nav li a:focus{
     color:rgb(3, 3, 3);

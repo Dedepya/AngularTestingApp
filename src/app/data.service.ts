@@ -35,6 +35,11 @@ export class DataService {
       }
     }
 
+    deleteProfile(id):Observable<any>{
+      console.log("id is ",id)
+      return this.hc.delete("http://localhost:3000/profiles/"+id)
+    }
+
     //logout
     userLogout(){
       localStorage.clear();

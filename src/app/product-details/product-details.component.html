@@ -5,5 +5,8 @@
     <p class="card-text">{{productObj.description}}
     </p>
     <a href="{{productObj.profileLink}}" target="_blank" class="btn add-product" >View Profile</a>
+      <button class="btn btn-delete btn-sm p-2 m-4" style="width:30px; height: 37px; align-items:flex-end;" (click)="deleteProfile(productObj)" type="button">
+        <i class="fas fa-trash-alt "></i>
+      </button>
+    </div>
   </div>
-</div>
