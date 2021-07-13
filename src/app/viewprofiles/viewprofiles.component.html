@@ -1,0 +1,8 @@
+
+<input type="text" name="profileTitle" placeholder="Search by Profile" class="form-control mt-2" [(ngModel)]="searchTerm">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5 ">
+    <div class="col" *ngFor="let profileObj of profiles | search :searchTerm ">
+        <app-product-details [productObj]=profileObj></app-product-details>
+    </div>
+
+</div>

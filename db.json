@@ -1,0 +1,67 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "profileTitle": "Hackerrank",
+      "description": "HackerRank is the market-leading technical assessment and remote interview solution for hiring developers from anywhere.",
+      "profileImage": "https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/05/22174532/hackerrank-logo.jpg",
+      "profileLink": "https://www.hackerrank.com/"
+    },
+    {
+      "id": 2,
+      "profileTitle": "CodeChef",
+      "description": "CodeChef was created as a platform to help programmers make it big in the world of algorithms, programming & contests.",
+      "profileImage": "https://i.pinimg.com/originals/ef/3c/3f/ef3c3fd973ce6890b32d27be7a050b62.png",
+      "profileLink": "https://www.codechef.com/"
+    },
+    {
+      "id": 3,
+      "profileTitle": "InterviewBit",
+      "description": "Learn and Practice on almost all coding interview questions asked historically and get referred to the best tech companies.",
+      "profileImage": "http://ibassets.s3.amazonaws.com/static-assets/ib-logo-square.png",
+      "profileLink": "https://www.interviewbit.com/"
+    },
+    {
+      "id": 4,
+      "profileTitle": "Codeforces",
+      "description": "Codeforces hosts competitive programming contests. Codeforces claims to surpass Topcoder in terms of active contestants.",
+      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ69Ryw05X2VZZV8ktYQwsPBC6fkcOmaLIINkgVDYBY4-FhuKpHtmlZFkdo-KR9zHURxVU&usqp=CAU",
+      "profileLink": "https://codeforces.com/"
+    },
+    {
+      "id": 5,
+      "profileTitle": "LeetCode",
+      "description": " Level up your coding skills and quickly land a job. Best place to expand your knowledge and get prepared for the interviews.",
+      "profileImage": "https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png",
+      "profileLink": "https://leetcode.com/"
+    },
+    {
+      "id": 6,
+      "profileTitle": "Spoj",
+      "description": "SPOJ is an online judge system allows to organize contests and also includes a forum for coders to discuss particular problems.",
+      "profileImage": "https://www.andreafiori.net/img/competitive-programming/spoj.gif",
+      "profileLink": "https://www.spoj.com/"
+    },
+    {
+      "id": 7,
+      "profileTitle": "Hackerearth",
+      "description": "HackerEarth provides organisations to conduct technical skill assessment and remote video interviewing for hiring.",
+      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktYWwsM53sqOR3r0YTlHnpl5VtQ0s-x6Q4GX3mgEHTPt18OSX0FOxKde-RyZvQmZGEeo&usqp=CAU",
+      "profileLink": "https://www.hackerearth.com/"
+    },
+    {
+      "id": 8,
+      "profileTitle": "Coding Ninjas",
+      "description": "Coding Ninjas is one of the best learning platforms.The course content was very informative and well .",
+      "profileImage": "https://onlineandyou.com/wp-content/uploads/2020/07/Coding-Ninjas.jpg",
+      "profileLink": "https://www.codingninjas.com/"
+    },
+    {
+      "id": 9,
+      "profileTitle": "Topcoder",
+      "description": "Topcoder is home to the world's largest community of developers, and data scientists to start and execute faster.",
+      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVm7AThfNhjDi-DPTEjAFyK6zgNJt7-UtKBJtiq5ua3yJGWe9mfFS0b79dvesIeDLFAyQ&usqp=CAU",
+      "profileLink": "https://www.topcoder.com/"
+    }
+  ]
+}

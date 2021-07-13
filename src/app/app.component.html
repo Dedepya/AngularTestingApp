@@ -1,155 +1,55 @@
-<!-- <h1 class="text text-info text-center">Welcome to Angular Framework</h1>
-<hr>
-<div class="text-center">
-    <h1 class="text-primary">{{nameofCourse}} <span class="text-secondary">{{version}}</span></h1>
-    <h1 class="text-danger">{{instructor}}</h1>
-    <h3>Details of course</h3>
-    <h4>{{courseDetails.duration}}</h4>
-    <h4>{{courseDetails.modeofTraining}}</h4>
-    <img src={{imagePath}} alt="">
-    <input type="text" [value]=nameofCourse>
+<!-- create navbar -->
+<nav class="navbar navbar-expand-sm bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand text-dark" href="#"><b>FORESIGHT PLAN YOUR DAY-EVERYDAY</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home" routerLinkActive="active"
+          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="register" routerLinkActive="active"
+          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Register</a>
+        </li>
 
-    <button class="btn btn-success" disabled={{status}}>Test Button</button>
-    <button class="btn btn-success" [disabled]=status>Test Button</button>
+        <li class="nav-item" *ngIf="!dsObj.userLoginStatus()">
+          <a class="nav-link " routerLink="login" routerLinkActive="active" 
+          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Login</a>
+        </li>
 
-    //Event binding
-    <div>
-        <input type="text" class="form-control" #ref>
-        <button class=" btn btn-primary" (click)="sendData(ref.value)" >Send data</button>
-        <h1>{{data}}</h1>
-    </div>
+        <li class="nav-item" *ngIf="dsObj.userLoginStatus()">
+          <a class="nav-link " routerLink="login" routerLinkActive="active" (click)="dsObj.userLogout()"
+          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Logout</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " routerLink="products" routerLinkActive="active"
+          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Products</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " routerLink="aboutus" routerLinkActive="active"
+          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Aboutus</a>
+        </li>
+
+      </ul>
+      
+    </div><br>
+  </div>
+</nav>
+
+
+<!-- nest products component -->
+<div class="container">
+  <router-outlet></router-outlet>
 </div>
 
-<p>Once you have completed the on-demand session, you can check your knowledge by taking the online assessment. On successful completion of assessment, please update your Microsoft Azure skills on Twitter, LinkedIn and submit here. Post validation of your LinkedIn profile, your certificate will be emailed to you</p>
-<img src="assets/tech1.jpg"> -->
 
-<!-- <div class="text-center">
-<button class="btn btn-success" (click)="changeStatus()">{{status? "Hide":"Show"}}</button>
-<h1 *ngIf="status">Welcome</h1>
+<!-- nest footer component -->
 
-
-<h2 *ngFor="let n of arr">{{n}}</h2>
-<ul>
-    <li *ngFor="let x of arr">{{x}}</li>
-</ul>
-
-</div> -->
-
-<!-- <div class="w-50 mx-auto mt-5">
-    <h1 class="text-white bg-primary text-center b"><i class="fa fa-pencil-square-o" style="font-size:36px"></i> To-Do form</h1>
-    <div class="form-floating m-5">
-        <input type="text" class="form-control" id="floatingInput" placeholder="Ex: Eating" [(ngModel)]="item">
-        <label for="floatingInput">Add to-do item</label>
-    </div>
-    <button class="btn btn-primary d-block mx-auto" (click)="addItem();">
-        <i class="fa fa-plus-square"></i> Add to List</button>
-
-    <div class="text-center mt-4">
-        <h1 class="bg-dark text-white"><i class="fa fa-server"></i> List of Actions</h1>
-        <h2 *ngIf="todoItem.length==0"><i class="fa fa-search"></i> No items Found</h2>
-        <h4 *ngFor="let item of todoItem;let ind=index" class="text1">
-            {{item}}
-            <button class="bt bt-sm deleteBtn" (click)="deleteItem(ind)"><i class="fa fa-trash" style="font-size:24px"></i></button></h4>
-    </div>
-</div>
-<div class="mx-auto w-75 mt-5">
-    <h1 class="text-center heading bg-success text-white">Registration Form</h1>
-    <form #ref="ngForm" (ngSubmit)="adduserData()">
-    <div class="m-3">
-        <label for="un">Username</label>
-        <input type="text" name="username" id="un" class="form-control" [(ngModel)]=userObj.username>
-    </div>
-    <div class="m-3">
-        <label for="pw">Date of Birth</label>
-        <input type="date" name="dob" id="pw" class="form-control" [(ngModel)]=userObj.dob>
-    </div>
-    <div class="m-3">
-        <label for="em">Email</label>
-        <input type="email" name="email" id="em" class="form-control" [(ngModel)]=userObj.email>
-    </div>
-    <button type="submit" class="btn btn-success d-block mx-auto m-3"><i class="fa fa-sign-in"></i> Register</button>
-
-</form>
-<div class="text-center">
-    <h2 class="text-info mt-3">List of Registered Users</h2>
-    <h3 *ngIf="users.length==0"><i class="fa fa-search"></i> No users Found</h3>
-    <div *ngIf="users.length!=0">
-    <table class="table">
-        <tr>
-            <th>Username</th>
-            <th>Date of Birth</th>
-            <th>E-mail</th>
-            <th> </th>
-        </tr>
-        <tbody>
-            <tr *ngFor="let userobj of users">
-                <td>{{userobj.username}}</td>
-                <td>{{userobj.dateofbirth}}</td>
-                <td>{{userobj.email}}</td>
-                <td><button class="bt bt-sm deleteBtn" (click)="deleteData(ind)">Delete <i class="fa fa-trash"></i></button></td>
-            </tr>
-        </tbody>
-    </table> -->
-<!--</div>
-<div class="accordion" id="acrd">
-    <div class="accordion-item" *ngFor="let userobj of users;let ind=index">
-        <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse"  [attr.data-bs-target]="'#acr' + ind">{{userobj.username}}</button>
-        </h2>
-        <div [attr.id]="'acr' + ind" class="accordion-collapse collapse" data-bs-parent="#acrd">
-            <div class="accordion-body">
-                <h3>{{userobj.username}}</h3>
-                <h3>{{userobj.dob}}</h3>
-                <h3>{{userobj.email}}</h3>
-                <button class="bt bt-sm deleteBtn" (click)="deleteData(ind)">Delete <i class="fa fa-trash"></i></button>
-            </div>
-        </div>
-    </div>
-</div>
-
-</div>-->
-<!-- <div class="container">
-    <h1 class="text-center heading bg-light mt-3">User data Management</h1>
-    <div class="row">
-        <div class="col-sm-6">
-            <app-user-registration></app-user-registration>
-        </div>
-        <div class="col-sm-6">
-            <app-user-list></app-user-list>
-        </div>
-    </div>
-</div> -->
-
-<!-- <div class="container">
-    <h1 class="text-center heading bg-dark p-3 text-light mt-3">TRENDING MEAN STACK</h1>
-    <div class="row">
-        <div class="col-sm-4">
-            <app-product1></app-product1>
-        </div>
-        <div class="col-sm-4">
-            <app-product2></app-product2>
-        </div>
-        <div class="col-sm-4">
-            <app-product3></app-product3>
-        </div>
-        <div class="col-sm-4">
-            <app-product4></app-product4>
-        </div>
-        <div class="col-sm-4">
-            <app-product5></app-product5>
-        </div>
-        <div class="col-sm-4">
-            <app-product6></app-product6>
-        </div>
-    </div>
-</div> -->
-
-    <h1 class="display-3 text-center text-info pt-5">Product Management System</h1>
-    <hr>
-    <div>
-        <app-products>
-        </app-products>
-    </div>
-<div style="position:relative; bottom: 0px; width:100%">
-    <app-footer></app-footer>
-</div>
+<app-footer class="mt-auto"></app-footer>
